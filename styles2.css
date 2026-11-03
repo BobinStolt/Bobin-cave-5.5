@@ -1,0 +1,33 @@
+  h4  { color: hsl(0, 87%, 44%) }
+  body {
+    color: #000000;
+    background-color: rgb(136, 217, 234);
+
+    p { line-height: 1.5;}
+
+    .p1 {font-family: Verdana, sans-serif;}
+  } 
+  footer {
+    background-color: rgb(144, 238, 143);
+  }
+  article {
+    background-color: rgb(144, 238, 143);
+  }
+  a {
+    color: rgb(0, 30, 148);
+    text-decoration: none;
+    
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+ .container div {
+    border: 5px solid rgb(136, 217, 234);
+    padding: 85px;
+    text-align: center;
+    }
